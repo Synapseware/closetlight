@@ -1,0 +1,34 @@
+[
+  {
+    "file": "closetlight.c",
+    "arguments": [
+      "/opt/homebrew/bin/avr-gcc",
+      "-c",
+      "-mmcu=attiny13",
+      "-I.",
+      "-gdwarf-2",
+      "-DF_CPU=9600000UL",
+      "-Os",
+      "-funsigned-char",
+      "-funsigned-bitfields",
+      "-fpack-struct",
+      "-fshort-enums",
+      "-Wall",
+      "-Wstrict-prototypes",
+      "-Wunreachable-code",
+      "-Wsign-compare",
+      "-Wa,-adhlns=./closetlight.lst",
+      "-I../../libs",
+      "-std=gnu99",
+      "-MMD",
+      "-MP",
+      "-MF",
+      ".dep/closetlight.o.d",
+      "closetlight.c",
+      "-o",
+      "closetlight.o"
+    ],
+    "directory": "/Users/glitterprincess/src/synapseware/closetlight/src",
+    "output": "closetlight.o"
+  }
+]

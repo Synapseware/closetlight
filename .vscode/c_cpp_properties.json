@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/opt/homebrew/opt/avr-gcc/avr/include/**",
+                "${workspaceFolder}/**"
+            ],
+            "compileCommands": "${workspaceFolder}/src/compile_commands.json",
+            "defines": [],
+            "compilerPath": "/opt/homebrew/bin/avr-gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
